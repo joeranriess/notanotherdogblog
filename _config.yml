@@ -1,3 +1,2 @@
-markdown: redcarpet
 baseurl: /notanotherdogblog
 exclude: ['README.md']
