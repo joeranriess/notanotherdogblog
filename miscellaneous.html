@@ -1,0 +1,14 @@
+---
+layout: blog-default
+---
+
+<H2>Gemischtes</H2>
+
+<ul>
+  {% for blogpost in site.categories.miscellaneous limit:1 %}
+    <li>
+      <a href="{{site.baseurl}}{{blogpost.url}}">{{blogpost.title}}</a>
+      <p>{{blogpost.meta}}</p>
+    </li>
+  {% endfor %}
+</ul>
